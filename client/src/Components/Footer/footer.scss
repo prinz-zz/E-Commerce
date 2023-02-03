@@ -1,0 +1,42 @@
+.footer{
+    margin: 100px 150px 20px 150px;
+
+    .top{
+        display: flex;
+        gap: 50px;
+
+        .item {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            text-align:justify;
+        }
+        h1{
+            font-size: 20px;
+            color: #555;
+        }
+        span{
+            color:gray;
+        }
+    }
+
+    .bottom{
+        display: flex;
+        justify-content: space-between;
+        color: #030E4C;
+        margin-top: 30px;
+
+        .left{
+            display: flex;
+            align-items: flex-start;
+            flex-direction: column;
+            justify-content: center;
+        }
+        .right{
+            img {
+                height:135px;
+            }
+        }
+    }
+}

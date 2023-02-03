@@ -1,0 +1,21 @@
+.list {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    position: relative;
+    .progress {
+        position: absolute;
+        top: 0;
+        right: 0;
+        left: 0;
+        bottom: 0;
+        margin: auto;
+      }
+
+    .card {
+        margin-bottom:20px;
+        position: relative;
+        
+    }
+    
+}

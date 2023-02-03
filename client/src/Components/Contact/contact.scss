@@ -1,0 +1,36 @@
+.contact {
+    background: #2879fe;
+    color: #fff;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+
+    .wrapper {
+        display: flex;
+        width: 60%;
+        justify-content:space-between;
+        align-items:center;
+        
+        .center {
+            input {
+                padding: 10px;
+                border: none;
+                border-radius: 5px 0 0 5px;
+            }
+            button {
+                padding: 10px;
+                border: none;
+                border-radius: 0 5px 5px 0;
+                color: #fff;
+                background:#333;
+            }
+        }
+        .right {
+            svg {
+                margin-left: 10px;
+            }
+                
+        }
+        
+    }
+}
